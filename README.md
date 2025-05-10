@@ -40,8 +40,8 @@ src/test/java/com/example/ordermanagement
 * Spring Data JPA (Hibernate)
 * MockMvc for Controller Testing
 * JUnit & Mockito for Unit Testing
-* 
-* 
+
+
 ##  📖 API Documentation
   ToDo with openapi
 
@@ -57,7 +57,7 @@ The application uses the following configurations in application.properties:
 ### JWT Secret:  
 * jwt.secret=<your_secret_key>
 
-* 
+
 ### Spring Security:
 * spring.security.oauth2.resourceserver.jwt.issuer-uri=http://localhost:8080
 
@@ -73,8 +73,8 @@ The application uses the following configurations in application.properties:
 1. Clone this repository:
 
    ```bash
-   git clone <repository_url>
-   cd order-management-system
+   git clone  https://github.com/semlali/mvpApi.git
+   cd mvpApi
    ```
 
 2. Build the project:
@@ -104,5 +104,7 @@ The application uses the following configurations in application.properties:
 
 ## 📌 Future Improvements
 
+* Add Swagger/OpenAPI documentation.
+* Adapt TU to handle authentication and authorization.
 * Implement pagination for customer orders.
 * Add integration tests (Controller -> Service -> Repository).
