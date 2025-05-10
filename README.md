@@ -91,8 +91,8 @@ The application uses the following configurations in application.properties:
 
 4. Access the API:
 
-    * Orders: `GET /api/orders/{customerId}`
-    * Refund: `POST /api/refund`
+    * Orders: `GET /api/orders/{customerId}` (with path variable : customerId)
+    * Refund: `POST /api/refund` (with body : orderItemId)
 
 ### Testing
 
